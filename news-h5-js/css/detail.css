@@ -1,0 +1,132 @@
+.back {
+    height: .88rem;
+    position: relative;
+}
+.back img{
+    position: absolute;
+    left: .4rem;
+    top: .26rem;
+}
+.container {
+    padding: .24rem .3rem;
+}
+.container .title{
+    font-size: .4rem;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #242424;
+    line-height: .56rem;
+}
+.container .date{
+    height: .32rem;
+    font-size: .22rem;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #adadad;
+    line-height: .32rem;
+    display: inline-block;
+    margin: .2rem 0 .48rem;
+}
+.container .author{
+    height: .32rem;
+    font-size: .22rem;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #adadad;
+    line-height: .32rem;
+    display: inline-block;
+    margin: .2rem 0 .48rem;
+    margin-right: 0.16rem;
+}
+.container .content p{
+    font-size: .32rem;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #242424;
+    line-height: .56rem;
+}
+.container .content img{
+    border-radius: .12rem;
+    margin: .24rem 0;
+}
+.recReading .recTitle{
+    height: .5rem;
+    font-size: .36rem;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #242424;
+    line-height: .5rem;
+    margin: .48rem 0 .32rem;
+}
+.recReading .news-brief-tb-layout .titile{
+    font-size: .34rem;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #242424;
+    line-height: .48rem;
+    margin-bottom: .32rem;
+}
+.recReading .news-brief-tb-layout .news-images{
+    display: flex;
+    justify-content: space-between;
+}
+.recReading .news-brief-tb-layout .news-images img{
+    width: 32%;
+    border-radius: 6px;
+}
+.recReading .news-brief-tb-layout .date{
+    display: block;
+    margin: .2rem 0 .48rem;
+    height: .32rem;
+    font-size: .22rem;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #adadad;
+    line-height: .32rem;
+}
+.recReading .news-brief-lr-layout {
+    display: flex;
+    justify-content: space-between;
+    margin: .62rem 0 .52rem;
+}
+.recReading .news-brief-lr-layout .news-title {
+    width: 64%;
+}
+.recReading .news-brief-lr-layout .news-title .title{
+    font-size: .34rem;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #242424;
+    line-height: .48rem;
+    display: block;
+}
+.recReading .news-brief-lr-layout .news-title .author{
+    display: inline-block;
+    height: .32rem;
+    font-size: .22rem;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #adadad;
+    line-height: .32rem;
+    margin-top: .2rem;
+    margin-right: .16rem;
+}
+.recReading .news-brief-lr-layout .news-title .date{
+    display: inline-block;
+    height: .32rem;
+    font-size: .22rem;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #adadad;
+    line-height: .32rem;
+    margin-top: .2rem;
+}
+.recReading .news-brief-lr-layout .news-image{
+    width: 35%;
+    display: flex;
+    align-items: center;
+}
+.recReading .news-brief-lr-layout .news-image img{
+    width: 100%;
+    border-radius: 0.12rem;
+}

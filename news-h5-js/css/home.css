@@ -1,0 +1,99 @@
+.tabs ul{
+    padding: 0 .04rem;
+    border-bottom: 1px solid rgba(242, 242, 242, 0.7);
+}
+.tabs ul li{
+    font-size: .28rem;
+    height: .88rem;
+    width: .68rem;
+    float: left;
+    margin: 0 .26rem;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #adadad;
+    line-height: .88rem;
+    text-align: center;
+}
+
+.tabs ul .active{
+    height: .88rem;
+    font-size: .34rem;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #4073fc;
+    line-height: .88rem; 
+}
+.content{
+    padding: 0 .3rem;
+}
+.content .news-brief-tb-layout{
+    margin: .48rem 0 .62rem;
+}
+.content .news-brief-tb-layout .titile {
+    font-size: .34rem;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #242424;
+    line-height: .48rem;
+    margin-bottom: .32rem;
+}
+.content .news-brief-tb-layout .news-images{
+    display: flex;
+    justify-content: space-between;
+}
+.content .news-brief-tb-layout .news-images img{
+    width: 2.16rem;
+    height: 1.48rem;
+    border-radius: .06rem;
+}
+.content .news-brief-tb-layout .date{
+    display: block;
+    margin-top: .2rem;
+    height: .32rem;
+    font-size: .22rem;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #adadad;
+    line-height: .32rem;
+}
+.content .news-brief-lr-layout{
+    display: flex;
+    justify-content: space-between;
+    margin: .62rem 0 .52rem;
+}
+.content .news-brief-lr-layout .news-title{
+    width: 63%;
+}
+.content .news-brief-lr-layout .news-title .title{
+    font-size: .34rem;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #242424;
+    line-height: .48rem;
+}
+.content .news-brief-lr-layout .news-title .date{
+    display: block;
+    height: .32rem;
+    font-size: .22rem;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #adadad;
+    line-height: .32rem;
+    margin-top: .2rem;
+}
+.content .news-brief-lr-layout .news-image{
+    /* width: 35%; */
+    display: flex;
+    align-items: center;
+}
+.content .news-brief-lr-layout .news-image img{
+    width: 2.16rem;
+    height: 1.48rem;
+    border-radius: .12rem;
+}
+.mescroll{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: auto; /*如设置bottom:50px,则需height:auto才能生效*/
+}
